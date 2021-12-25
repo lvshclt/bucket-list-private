@@ -1,0 +1,5 @@
+@mixin border($color: #ffef00, $size: 2) {
+  @if (type-of $size == number and type-of $color == color) {
+    border: $color $size + px solid;
+  }
+}

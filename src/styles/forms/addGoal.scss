@@ -1,0 +1,44 @@
+.content {
+  height: 1300px;
+}
+
+.add-form {
+  * {
+    // @include border;
+    color: $white;
+  }
+
+  @include pos-center;
+  @include flexbox();
+  flex-direction: column;
+  height: 254px;
+  border: 7px solid $green-main;
+  border-radius: 42px;
+
+  .input-section {
+    @include flexbox(between, center);
+    position: absolute;
+    top: 74px;
+    height: 59px;
+
+    .input-section-content {
+      @include flexbox;
+      flex-direction: column;
+
+      input {
+        border-bottom: 2px solid $green-main;
+      }
+
+      span {
+        margin-bottom: 10.65px;
+      }
+    }
+  }
+
+  .button-section {
+    position: absolute;
+    @include flexbox(between);
+    bottom: 29px;
+    width: 226px;
+  }
+}

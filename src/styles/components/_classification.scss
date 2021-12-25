@@ -1,0 +1,105 @@
+%cate-base {
+  @include text-style(18);
+  @include flexbox;
+
+  width: 159px;
+  height: 32px;
+  padding: 7px 0;
+  font-weight: bold;
+  border-radius: 81px;
+
+  &.achievement {
+    background-color: $cate-blue;
+  }
+
+  &.learn {
+    background-color: $cate-darkgreen;
+  }
+
+  &.adventure {
+    background-color: $cate-orange;
+  }
+
+  &.creative {
+    background-color: $cate-yellow;
+  }
+
+  &.people {
+    background-color: $cate-purple;
+  }
+
+  &.life-style {
+    background-color: $cate-lightgreen;
+  }
+
+  &.family {
+    background-color: $cate-red;
+  }
+}
+
+.classification {
+  @include flexbox;
+  position: relative;
+
+  .del {
+    @include pos-center-y;
+    left: 0%;
+
+    // input {
+    //   display: none;
+    // }
+
+    // input + label {
+    //   @include pos-center;
+    //   width: 15px;
+    //   height: 15px;
+    //   background-color: $gray-main;
+    //   border-radius: 100%;
+    // }
+
+    // & input:checked + label {
+    //   background-color: $red-no;
+    // }
+  }
+
+  .num {
+    @include text-style(24);
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .category {
+    position: relative;
+    width: 191px;
+    height: 32px;
+  }
+
+  .label {
+    @extend %cate-base;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .shadow {
+    @extend %cate-base;
+    position: absolute;
+    left: 31.5px;
+    z-index: 2;
+    background-color: $background;
+    opacity: 20%;
+  }
+
+  .importance {
+    @extend %cate-base;
+    @include flexbox(end, center);
+    position: absolute;
+    bottom: 0;
+    left: 31.5px;
+    z-index: 1;
+
+    & span {
+      position: absolute;
+      right: 15px;
+    }
+  }
+}

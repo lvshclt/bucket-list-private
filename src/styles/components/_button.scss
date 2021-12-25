@@ -1,0 +1,45 @@
+%button-base {
+  @include inline-flexbox;
+  @include text-style(14);
+  height: 38px;
+  padding: 10px 25px 10px 25px;
+  font-weight: bold;
+  color: $white;
+  border-radius: 74px;
+}
+
+button {
+  @extend %button-base;
+
+  &.no {
+    background-color: $red-no;
+
+    &:hover {
+      background-color: $hover-red;
+    }
+  }
+
+  &.yes {
+    background-color: $green-main;
+
+    &:hover {
+      background-color: $hover-green;
+    }
+  }
+
+  &.not-really {
+    background-color: $gray-main;
+
+    &:hover {
+      background-color: $hover-gray;
+    }
+  }
+
+  &.accomplished {
+    background-color: $cate-blue;
+
+    &:hover {
+      background-color: $hover-blue;
+    }
+  }
+}

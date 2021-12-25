@@ -1,0 +1,29 @@
+%icon-base {
+  font-size: 25px;
+  color: $white;
+}
+
+[class^='ic-'] {
+  @extend %icon-base;
+
+  &.yes {
+    &.on,
+    &:hover {
+      color: $green-main;
+    }
+  }
+
+  &.no {
+    &.on,
+    &:hover {
+      color: $red-no;
+    }
+  }
+
+  &.not-really {
+    &.on,
+    &:hover {
+      color: $gray-main;
+    }
+  }
+}

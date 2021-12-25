@@ -1,0 +1,12 @@
+.line {
+  * {
+    // @include border;
+  }
+  @include flexbox(between);
+
+  .goal {
+    @include text-style(24);
+    font-weight: bold;
+    text-align: center;
+  }
+}

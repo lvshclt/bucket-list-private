@@ -1,0 +1,461 @@
+{
+  "status": [
+    {
+      "id": 1,
+      "status": "on-process",
+      "name": "진행중"
+    },
+    {
+      "id": 2,
+      "status": "accomplished",
+      "name": "완료"
+    },
+    {
+      "id": 3,
+      "status": "not-started",
+      "name": "미시작"
+    }
+  ],
+  "lines": [
+    {
+      "number": 1,
+      "classification": "Achievement",
+      "importance": "3",
+      "goal": "굿즈 사업하기",
+      "due": "2022",
+      "status": "not-started",
+      "completed": "",
+      "id": 1
+    },
+    {
+      "number": 2,
+      "classification": "Creative",
+      "importance": "2",
+      "goal": "집안에 모든 패키지 디자인하기",
+      "due": "2021",
+      "status": "not-started",
+      "completed": "",
+      "id": 2
+    },
+    {
+      "number": 3,
+      "classification": "Creative",
+      "importance": "4",
+      "goal": "오늘의 집에 나올만한 인테리어 하고 살기",
+      "due": "2021",
+      "status": "not-started",
+      "completed": "",
+      "id": 3
+    },
+    {
+      "number": 4,
+      "classification": "Learn",
+      "importance": "2",
+      "goal": "커피 배우기 (바리스타 수준)",
+      "due": "2023",
+      "status": "not-started",
+      "completed": "2023",
+      "id": 4
+    },
+    {
+      "number": 5,
+      "classification": "Learn",
+      "importance": "1",
+      "goal": "와인 배우기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 5
+    },
+    {
+      "number": 6,
+      "classification": "People",
+      "importance": "3",
+      "goal": "진로 등으로 방황하는 후배들 상담해주기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 6
+    },
+    {
+      "number": 7,
+      "classification": "Life Style",
+      "importance": "1",
+      "goal": "고양이 키우기(건강 양호 조건)",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 7
+    },
+    {
+      "number": 8,
+      "classification": "Adventure",
+      "importance": "2",
+      "goal": "일본에 유카타/스시/여름마루 낮잠 경험",
+      "due": "2025",
+      "status": "not-started",
+      "completed": "2025",
+      "id": 8
+    },
+    {
+      "number": 9,
+      "classification": "Family",
+      "importance": "5",
+      "goal": "가족 호캉스 가기",
+      "due": "2023",
+      "status": "not-started",
+      "completed": "2023",
+      "id": 9
+    },
+    {
+      "number": 10,
+      "classification": "Family",
+      "importance": "5",
+      "goal": "2101 지키기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 10
+    },
+    {
+      "number": 11,
+      "classification": "Achievement",
+      "importance": "3",
+      "goal": "한 분야의 전문가 되기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 11
+    },
+    {
+      "number": 12,
+      "classification": "Adventure",
+      "importance": "2",
+      "goal": "스위스가기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 12
+    },
+    {
+      "number": 13,
+      "classification": "Creative",
+      "importance": "2",
+      "goal": "노래 녹음 후, 앨범아트 디자인 후 10명 배부",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 13
+    },
+    {
+      "number": 14,
+      "classification": "Life Style",
+      "importance": "5",
+      "goal": "명상 생활화 하기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 14
+    },
+    {
+      "number": 15,
+      "classification": "People",
+      "importance": "3",
+      "goal": "연애 10회 채우기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 15
+    },
+    {
+      "number": 16,
+      "classification": "Creative",
+      "importance": "2",
+      "goal": "뮤직비디오 제작",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 16
+    },
+    {
+      "number": 17,
+      "classification": "Achievement",
+      "importance": "3",
+      "goal": "소득 1억 달성",
+      "due": "2031",
+      "status": "not-started",
+      "completed": "2031",
+      "id": 17
+    },
+    {
+      "number": 18,
+      "classification": "Creative",
+      "importance": "2",
+      "goal": "내 그래픽 모든 아트북 만들기",
+      "due": "2022",
+      "status": "not-started",
+      "completed": "2022",
+      "id": 18
+    },
+    {
+      "number": 19,
+      "classification": "Learn",
+      "importance": "1",
+      "goal": "사진 촬영 배우기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 19
+    },
+    {
+      "number": 20,
+      "classification": "Achievement",
+      "importance": "1",
+      "goal": "앱스토어에 버킷리스트 배포하기",
+      "due": "2022",
+      "status": "not-started",
+      "completed": "2022",
+      "id": 20
+    },
+    {
+      "number": 21,
+      "classification": "Achievement",
+      "importance": "1",
+      "goal": "영어로 연설하기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 21
+    },
+    {
+      "number": 22,
+      "classification": "Learn",
+      "importance": "1",
+      "goal": "원밀리언에서 춤 배우기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 22
+    },
+    {
+      "number": 23,
+      "classification": "Creative",
+      "importance": "2",
+      "goal": "안무 창작 후, 영상 남기기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 23
+    },
+    {
+      "number": 24,
+      "classification": "Life Style",
+      "importance": "5",
+      "goal": "따뜻하고 편안한 집 마련",
+      "due": "2035",
+      "status": "not-started",
+      "completed": "2035",
+      "id": 24
+    },
+    {
+      "number": 25,
+      "classification": "Adventure",
+      "importance": "1",
+      "goal": "발리 여행가서 해질녘보고 파티하기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 25
+    },
+    {
+      "number": 26,
+      "classification": "Life Style",
+      "importance": "2",
+      "goal": "필라테스 마스터하고 체형관리하기",
+      "due": "2030",
+      "status": "on-process",
+      "completed": "2030",
+      "id": 26
+    },
+    {
+      "number": 27,
+      "classification": "Life Style",
+      "importance": "1",
+      "goal": "트렌치코트 사기",
+      "due": "2025",
+      "status": "not-started",
+      "completed": "2025",
+      "id": 27
+    },
+    {
+      "number": 28,
+      "classification": "Creative",
+      "importance": "1",
+      "goal": "직접 디자인한 것들로 가득한 쇼룸 가지기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 28
+    },
+    {
+      "number": 29,
+      "classification": "Creative",
+      "importance": "2",
+      "goal": "내가 매일 쓸 나만의 인생관리 앱 만들기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 29
+    },
+    {
+      "number": 30,
+      "classification": "Achievement",
+      "importance": "3",
+      "goal": "내 웹사이트 만들기",
+      "due": "2022",
+      "status": "not-started",
+      "completed": "2022",
+      "id": 30
+    },
+    {
+      "number": 31,
+      "classification": "Life Style",
+      "importance": "1",
+      "goal": "식물 키우기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 31
+    },
+    {
+      "number": 32,
+      "classification": "Adventure",
+      "importance": "3",
+      "goal": "호주나 뉴욕 센트럴파크에서 선탠하며 휴식하기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 32
+    },
+    {
+      "number": 33,
+      "classification": "People",
+      "importance": "1",
+      "goal": "친구들에게 직접 만든 요리 대접하기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 33
+    },
+    {
+      "number": 34,
+      "classification": "Creative",
+      "importance": "2",
+      "goal": "내 브랜드 런칭하고 브랜딩하기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "2030",
+      "id": 34
+    },
+    {
+      "number": 35,
+      "classification": "Creative",
+      "importance": "1",
+      "goal": "10가지 로고디자인 하기",
+      "due": "2022",
+      "status": "not-started",
+      "completed": "2022",
+      "id": 35
+    },
+    {
+      "number": 36,
+      "classification": "Adventure",
+      "importance": "2",
+      "goal": "악프 분수대에서 비슷한 착장으로 영상 남기기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 36
+    },
+    {
+      "number": 37,
+      "classification": "Life Style",
+      "importance": "2",
+      "goal": "웃상 유지하기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 37
+    },
+    {
+      "number": 38,
+      "classification": "People",
+      "importance": "1",
+      "goal": "외국인과 연애해보기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 38
+    },
+    {
+      "number": 39,
+      "classification": "People",
+      "importance": "1",
+      "goal": "방송에서 내 얘기로 인터뷰 해 타인에게 도움주기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 39
+    },
+    {
+      "number": 40,
+      "classification": "Life Style",
+      "importance": "3",
+      "goal": "임대수익으로 생활 가능하게 하기",
+      "due": "2040",
+      "status": "not-started",
+      "completed": "2040",
+      "id": 40
+    },
+    {
+      "number": 41,
+      "classification": "People",
+      "importance": "4",
+      "goal": "사랑하는 사람과 평생 함께하기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 41
+    },
+    {
+      "number": 42,
+      "classification": "Achievement",
+      "importance": "1",
+      "goal": "태권도 4단 되기",
+      "due": "2040",
+      "status": "not-started",
+      "completed": "2040",
+      "id": 42
+    },
+    {
+      "number": 43,
+      "classification": "Family",
+      "importance": "5",
+      "goal": "엄마아빠 생전에 안정과 행복을 주기",
+      "due": "평생",
+      "status": "not-started",
+      "completed": "평생",
+      "id": 43
+    },
+    {
+      "number": 44,
+      "classification": "Life Style",
+      "importance": "5",
+      "goal": "항상 감사해하며, 즐길줄 알며 살기",
+      "due": "평생",
+      "status": "on-process",
+      "completed": "평생",
+      "id": 43
+    }
+  ]
+}
