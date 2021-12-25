@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import useFetch from '../hooks/useFetch';
+// import useFetch from '../hooks/useFetch';
+import dummy from '../db/data.json';
 
 export default function Line({
   number,
@@ -11,7 +12,8 @@ export default function Line({
   status,
   completed,
 }) {
-  const lines = useFetch('http://localhost:3001/lines');
+  const lines = dummy.lines;
+  // const lines = useFetch('http://localhost:3001/lines');
   const [isDelDone, setIsDelDone] = useState(false);
 
   //classification
