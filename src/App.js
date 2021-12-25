@@ -9,24 +9,16 @@ import Settings from './components/Settings';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App container">
         <div className="row">
           <GNB />
           <TabBar />
           <Routes>
-            <Route path="/bucket-list-private" element={<Content />} />
-            {/* <Route path="/bucket-list-private/" element={<Content />} /> */}
-            <Route path="/bucket-list-private/:aaa" element={<Content />} />
-            <Route
-              path="/bucket-list-private/add-goals"
-              element={<AddGoals />}
-            />
-            <Route path="/bucket-list-private/sorry" element={<Sorry />} />
-            <Route
-              path="/bucket-list-private/settings"
-              element={<Settings />}
-            />
+            <Route path="/:aaa" element={<Content />} />
+            <Route path="/add-goals" element={<AddGoals />} />
+            <Route path="/sorry" element={<Sorry />} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>
       </div>
