@@ -15,6 +15,7 @@ function App() {
           <GNB />
           <TabBar />
           <Routes>
+            <Route path="/" element={<Content />} />
             <Route path="/:aaa" element={<Content />} />
             <Route path="/add-goals" element={<AddGoals />} />
             <Route path="/sorry" element={<Sorry />} />

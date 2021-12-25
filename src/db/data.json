@@ -454,23 +454,8 @@
       "goal": "항상 감사해하며, 즐길줄 알며 살기",
       "due": "평생",
       "status": "on-process",
-<<<<<<< HEAD
       "completed": "평생",
       "id": 44
-=======
-      "completed": "",
-      "id": 44
-    },
-    {
-      "number": 45,
-      "classification": "Life Style",
-      "importance": "5",
-      "goal": "자동차 사기",
-      "due": "2030",
-      "status": "not-started",
-      "completed": "",
-      "id": 45
->>>>>>> d233c98c2ad688bca4fe57a9c976078d5300afaa
     }
   ]
 }
