@@ -74,7 +74,7 @@
       "goal": "진로 등으로 방황하는 후배들 상담해주기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 6
     },
     {
@@ -114,7 +114,7 @@
       "goal": "2101 지키기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 10
     },
     {
@@ -124,7 +124,7 @@
       "goal": "한 분야의 전문가 되기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 11
     },
     {
@@ -154,7 +154,7 @@
       "goal": "명상 생활화 하기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 14
     },
     {
@@ -164,7 +164,7 @@
       "goal": "연애 10회 채우기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 15
     },
     {
@@ -174,7 +174,7 @@
       "goal": "뮤직비디오 제작",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 16
     },
     {
@@ -224,7 +224,7 @@
       "goal": "영어로 연설하기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 21
     },
     {
@@ -294,7 +294,7 @@
       "goal": "직접 디자인한 것들로 가득한 쇼룸 가지기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 28
     },
     {
@@ -324,7 +324,7 @@
       "goal": "식물 키우기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 31
     },
     {
@@ -344,7 +344,7 @@
       "goal": "친구들에게 직접 만든 요리 대접하기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 33
     },
     {
@@ -374,7 +374,7 @@
       "goal": "악프 분수대에서 비슷한 착장으로 영상 남기기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 36
     },
     {
@@ -384,7 +384,7 @@
       "goal": "웃상 유지하기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 37
     },
     {
@@ -394,7 +394,7 @@
       "goal": "외국인과 연애해보기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 38
     },
     {
@@ -404,7 +404,7 @@
       "goal": "방송에서 내 얘기로 인터뷰 해 타인에게 도움주기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 39
     },
     {
@@ -424,7 +424,7 @@
       "goal": "사랑하는 사람과 평생 함께하기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 41
     },
     {
@@ -444,7 +444,7 @@
       "goal": "엄마아빠 생전에 안정과 행복을 주기",
       "due": "평생",
       "status": "not-started",
-      "completed": "평생",
+      "completed": "",
       "id": 43
     },
     {
@@ -454,8 +454,23 @@
       "goal": "항상 감사해하며, 즐길줄 알며 살기",
       "due": "평생",
       "status": "on-process",
+<<<<<<< HEAD
       "completed": "평생",
       "id": 44
+=======
+      "completed": "",
+      "id": 44
+    },
+    {
+      "number": 45,
+      "classification": "Life Style",
+      "importance": "5",
+      "goal": "자동차 사기",
+      "due": "2030",
+      "status": "not-started",
+      "completed": "",
+      "id": 45
+>>>>>>> d233c98c2ad688bca4fe57a9c976078d5300afaa
     }
   ]
 }
