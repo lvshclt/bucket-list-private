@@ -15,7 +15,8 @@ function App() {
           <GNB />
           <TabBar />
           <Routes>
-            <Route path="/bucket-list-private/" element={<Content />} />
+            <Route path="/bucket-list-private" element={<Content />} />
+            {/* <Route path="/bucket-list-private/" element={<Content />} /> */}
             <Route path="/bucket-list-private/:aaa" element={<Content />} />
             <Route
               path="/bucket-list-private/add-goals"
